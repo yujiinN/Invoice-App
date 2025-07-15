@@ -105,7 +105,7 @@ My strategy was to build a solid, functional foundation first, then layer on the
 3. **High-Impact Features:** With the core application working, I prioritized the AI-Powered Query as it was highlighted as a major advantage. Following that, I implemented other advanced features that demonstrate a breadth of skills: Dashboard (data visualization), PDF Export (file generation), Payment Tracking (complex business logic), and Audit Logging (architectural patterns).
 4. **User Experience Polish:** Finally, I added the Mock Authentication flow and refined the overall UI to create a complete and polished user experience from sign-up to logout.
 
-🐛 Known Limitations & Bugs
+# 🐛 Known Limitations & Bugs
 
 - **BUG: Client CSV Import Fails:** The UI for uploading a CSV file and the backend endpoint (/api/import/clients/csv) are both implemented. However, when a file is uploaded, the backend is not processing it correctly, leading to a server-side error. My initial debugging suggests the issue may be in how the file stream is being read or parsed by the csv module.
 - **BUG: Email Reminder Not Functional:** Similar to the import feature, the frontend modal to preview and send an email reminder is complete, and the mock backend endpoint (/api/mock-email/send) exists. However, there is a communication or data-formatting error preventing the frontend from successfully triggering the endpoint.
