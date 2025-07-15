@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+python-dotenv  
+python-decouple     
+email-validator
+openai   
+reportlab
